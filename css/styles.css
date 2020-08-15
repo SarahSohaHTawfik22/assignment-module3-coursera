@@ -1,0 +1,120 @@
+body{
+	font-size: 16px;	
+  font-family:Arial, Helvetica, sans-serif;
+  background-color: rgb(192, 196, 255);
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 2px solid #000 !important;
+
+}
+.navbar-header button.navbar-toggle{
+  margin-top: 20px;
+  margin-right: 30px
+}
+#header-nav{
+  background-color:#999999;  
+  border:2px solid #000; 
+  border-radius: 0;
+}
+.navbar-brand{
+  margin-top: 10px;
+  padding-top:10px;
+}
+.navbar-nav{
+  margin:0 -15px !important;
+  margin-top: 1000px;
+}
+.navbar-brand h1{
+  color: rgb(70, 10, 94);
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  margin-left: 15px;
+}
+#menu-collapsable-nav{
+
+  margin-top: 0px;
+  width: 100%;
+  
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none; 
+  background-color: aquamarine; 
+}
+#nav-list{
+  border:1px solid;
+  margin-top: 0px;
+margin-top: 0px;
+}
+#nav-list:nth-child(3){
+  border-bottom:0;
+}
+#nav-list li{
+  background:rgb(202, 80, 151);
+  border-bottom:2px solid;
+
+}
+#nav-list li:nth-child(3){
+  border-bottom:0;
+}
+#nav-list li a{
+  color:#000;
+  font-weight: 600;
+  line-height: 8px;
+
+}
+.menu{
+  margin:30px; 
+}
+.main-title{
+  font-weight: bold;
+  margin-top: -3px;
+}
+.menu-content{ 
+  margin-top:40px;
+}
+.menu-title{
+  font-weight: bold;
+  
+}
+.menu-item{
+  margin-bottom: 20px;
+  background-color: rgb(195, 148, 238);
+  
+  padding: 10px;
+  border:1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.menu-item h4 {
+  font-weight: bold;
+}
+.menu-item p{
+  font-weight:600;
+  font-size: .9em;
+  padding: 5px 10px;
+}
+@media (max-width:767px){
+  .navbar-brand:focus, .navbar-brand{
+    margin-left:10px;
+  }
+  .menu{
+    width: 80%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom: 15px;
+  }
+  .menu-item p{
+    font-weight: 600;
+    font-size: 1em;
+    padding:5px 15px;
+  }
+}
+.text-justify{
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(195, 148, 238);
+color: black;
+
+}
